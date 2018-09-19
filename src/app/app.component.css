@@ -1,0 +1,70 @@
+
+.myAssignment{
+    display: inline-block;
+    width: 100%;
+    min-width: 1024px;
+    background: #000;
+    height: 30px;
+    padding: 5px 0;;
+}
+.font-20{
+    font-size: 20pt;
+}
+.font-25{
+    font-size: 25pt;
+}
+.font-16{
+    font-size: 16pt;
+}
+.font-14{
+    font-size: 14pt;
+} 
+.col-fff{
+    color: #fff;
+}
+.col-7c{
+    color: #7c7c7c;
+}
+.collapse{
+    display: none;
+    margin-top: 20px;
+}
+.show .collapse{
+    display: block !important;
+}
+.menu-left,.menu-right{
+    width: 15%;
+}
+.menu-left{
+    margin-left: 26px;
+}
+.menu-right{
+    margin-right: 26px;
+}
+.menu-left,.menu-items{float: left;}
+.menu-right{
+    float: right;
+    text-align: right;
+}
+nav.menu-items{
+    width: 60%;
+    text-align: center;
+}
+.menu-items ul{
+    display: inline-block;
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar > ul > li{
+    float: left;
+    margin-right: 4%;
+}
+.navbar > ul > li:last-child{
+    margin-right: 0px;
+}
+.navbar ul{
+    padding-left: 0px;
+    margin: 0px;
+    width: 100%;
+}
